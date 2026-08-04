@@ -13,1083 +13,869 @@
 |----------|-------|
 | Azure/Cloud Infrastructure | 27 |
 | NVIDIA/NeMo/AI Infrastructure | 41 |
-| Neo4j/Graph Analytics | 32 |
+| Neo4j/Graph Analytics | 31 |
 | Vercel/Deployment | 5 |
-| Thinking/Collaboration/Planning | 28 |
+| Thinking/Collaboration/Planning | 30 |
 | Code/Testing/CI | 13 |
 | Memory/Cortex/AI Patterns | 3 |
 | Documentation/Research | 4 |
 | MCP/Plugin Development | 2 |
-| Collaboration/Planning | 2 |
-| Other | 49 |
+| Other | 50 |
+| **Total** | **206** |
 
 ---
-
-### 
-**Category**: 
-**Description**: 
-**SKILL.md**: `~/.agents/skills//SKILL.md`
 
 
 ## Azure/Cloud Infrastructure
 
 ### airunway-aks-setup
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: airunway-aks-setup
+**Description**: Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and fir
 **SKILL.md**: `~/.agents/skills/airunway-aks-setup/SKILL.md`
 
 ### appinsights-instrumentation
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: appinsights-instrumentation
+**Description**: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to
 **SKILL.md**: `~/.agents/skills/appinsights-instrumentation/SKILL.md`
 
 ### azure-aigateway
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-aigateway
+**Description**: Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balanc
 **SKILL.md**: `~/.agents/skills/azure-aigateway/SKILL.md`
 
 ### azure-ai
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-ai
+**Description**: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcriptio
 **SKILL.md**: `~/.agents/skills/azure-ai/SKILL.md`
 
 ### azure-cloud-migrate
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-cloud-migrate
+**Description**: Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service
 **SKILL.md**: `~/.agents/skills/azure-cloud-migrate/SKILL.md`
 
 ### azure-compliance
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-compliance
+**Description**: Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/complian
 **SKILL.md**: `~/.agents/skills/azure-compliance/SKILL.md`
 
 ### azure-compute
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-compute
+**Description**: Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, li
 **SKILL.md**: `~/.agents/skills/azure-compute/SKILL.md`
 
 ### azure-cost
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-cost
+**Description**: Azure cost management: query costs, forecast spending, optimize to reduce waste. WHEN: \"Azure costs\", \"Azure bill\", \"cost breakdown\", \"how much
 **SKILL.md**: `~/.agents/skills/azure-cost/SKILL.md`
 
 ### azure-deploy
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-deploy
+**Description**: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this ski
 **SKILL.md**: `~/.agents/skills/azure-deploy/SKILL.md`
 
 ### azure-diagnostics
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-diagnostics
+**Description**: Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app
 **SKILL.md**: `~/.agents/skills/azure-diagnostics/SKILL.md`
 
 ### azure-enterprise-infra-planner
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-enterprise-infra-planner
+**Description**: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, i
 **SKILL.md**: `~/.agents/skills/azure-enterprise-infra-planner/SKILL.md`
 
 ### azure-hosted-copilot-sdk
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-hosted-copilot-sdk
+**Description**: Build, deploy, and modify GitHub Copilot SDK apps on Azure. MANDATORY when codebase contains @github/copilot-sdk or CopilotClient in package.json. PRE
 **SKILL.md**: `~/.agents/skills/azure-hosted-copilot-sdk/SKILL.md`
 
 ### azure-kubernetes
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-kubernetes
+**Description**: Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), n
 **SKILL.md**: `~/.agents/skills/azure-kubernetes/SKILL.md`
 
 ### azure-kusto
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-kusto
+**Description**: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto d
 **SKILL.md**: `~/.agents/skills/azure-kusto/SKILL.md`
 
 ### azure-messaging
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-messaging
+**Description**: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message p
 **SKILL.md**: `~/.agents/skills/azure-messaging/SKILL.md`
 
 ### azure-prepare
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-prepare
+**Description**: Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migrati
 **SKILL.md**: `~/.agents/skills/azure-prepare/SKILL.md`
 
 ### azure-quotas
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-quotas
+**Description**: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"servic
 **SKILL.md**: `~/.agents/skills/azure-quotas/SKILL.md`
 
 ### azure-rbac
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-rbac
+**Description**: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also p
 **SKILL.md**: `~/.agents/skills/azure-rbac/SKILL.md`
 
 ### azure-reliability
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-reliability
+**Description**: Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy,
 **SKILL.md**: `~/.agents/skills/azure-reliability/SKILL.md`
 
 ### azure-resource-lookup
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-resource-lookup
+**Description**: List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my
 **SKILL.md**: `~/.agents/skills/azure-resource-lookup/SKILL.md`
 
 ### azure-resource-visualizer
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-resource-visualizer
+**Description**: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create
 **SKILL.md**: `~/.agents/skills/azure-resource-visualizer/SKILL.md`
 
 ### azure-storage
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-storage
+**Description**: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers 
 **SKILL.md**: `~/.agents/skills/azure-storage/SKILL.md`
 
 ### azure-upgrade
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-upgrade
+**Description**: Assess and upgrade Azure workloads between plans, tiers, or SKUs, or modernize Azure SDK dependencies in source code. WHEN: upgrade Consumption to Fle
 **SKILL.md**: `~/.agents/skills/azure-upgrade/SKILL.md`
 
 ### azure-validate
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-validate
+**Description**: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), RBAC role assignments, managed i
 **SKILL.md**: `~/.agents/skills/azure-validate/SKILL.md`
 
 ### azure-vision-ocr
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: azure-vision-ocr
+**Description**: Give non-multimodal LLMs vision by OCRing images into text context via Azure Computer Vision, with structured HuggingFace fallback. Trigger when the c
 **SKILL.md**: `~/.agents/skills/azure-vision-ocr/SKILL.md`
 
 ### entra-agent-id
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: entra-agent-id
+**Description**: Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2
 **SKILL.md**: `~/.agents/skills/entra-agent-id/SKILL.md`
 
 ### entra-app-registration
-**Category**: Azure/Cloud Infrastructure
-**Description**: name: entra-app-registration
+**Description**: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, c
 **SKILL.md**: `~/.agents/skills/entra-app-registration/SKILL.md`
 
 
 ## Code/Testing/CI
 
 ### add-tests
-**Category**: Code/Testing/CI
-**Description**: name: add-tests
+**Description**: Trigger this skill when the user says 'add tests', 'test coverage', 'coverage gaps', 'write tests for', 'untested code', 'missing tests', 'improve cov
 **SKILL.md**: `~/.agents/skills/add-tests/SKILL.md`
 
 ### backlog-triage
-**Category**: Code/Testing/CI
-**Description**: name: backlog-triage
+**Description**: Trigger this skill when the user says 'backlog', 'triage', 'process inbox', 'prioritize', 'what should we work on', 'sort the backlog', 'clean up task
 **SKILL.md**: `~/.agents/skills/backlog-triage/SKILL.md`
 
 ### browser-testing
-**Category**: Code/Testing/CI
-**Description**: name: browser-testing
+**Description**: Trigger this skill when changes touch UI components (.tsx, .jsx, .vue, .svelte, CSS, SCSS, HTML templates) and visual or interaction verification is n
 **SKILL.md**: `~/.agents/skills/browser-testing/SKILL.md`
 
 ### build-pipeline
-**Category**: Code/Testing/CI
-**Description**: name: build-pipeline
+**Description**: Trigger this skill for any feature development, multi-step work, or when the user wants guided development with human checkpoints between stages. Trig
 **SKILL.md**: `~/.agents/skills/build-pipeline/SKILL.md`
 
 ### changelog-generation
-**Category**: Code/Testing/CI
-**Description**: name: changelog-generation
+**Description**: Trigger this skill when preparing any release or when the user asks what has changed — even if they don't explicitly mention changelogs. Trigger when 
 **SKILL.md**: `~/.agents/skills/changelog-generation/SKILL.md`
 
 ### codebase-mapping
-**Category**: Code/Testing/CI
-**Description**: name: codebase-mapping
+**Description**: Trigger this skill when the user needs to understand a codebase before modifying it — even if they don't explicitly ask for a map. Trigger when the us
 **SKILL.md**: `~/.agents/skills/codebase-mapping/SKILL.md`
 
 ### dependency-management
-**Category**: Code/Testing/CI
-**Description**: name: dependency-management
+**Description**: Trigger this skill when adding, upgrading, or removing ANY dependency — even a single package install deserves compatibility checking. Trigger when th
 **SKILL.md**: `~/.agents/skills/dependency-management/SKILL.md`
 
 ### deployment-verification
-**Category**: Code/Testing/CI
-**Description**: name: deployment-verification
+**Description**: Trigger this skill before ANY production deployment — even if the user seems confident everything is fine. Trigger when the user says 'deploy', 'deplo
 **SKILL.md**: `~/.agents/skills/deployment-verification/SKILL.md`
 
 ### health-check
-**Category**: Code/Testing/CI
-**Description**: name: health-check
+**Description**: Trigger this skill when the user says 'health', 'health check', 'how's the project', 'project health', 'are things ok', 'any issues', 'is everything w
 **SKILL.md**: `~/.agents/skills/health-check/SKILL.md`
 
 ### prove-claim
-**Category**: Code/Testing/CI
-**Description**: name: prove-claim
+**Description**: Use when asked to prove, disprove, investigate, or find evidence for a claim about people, concepts, ideas, or their relationships. Also use when aske
 **SKILL.md**: `~/.agents/skills/prove-claim/SKILL.md`
 
 ### test-driven-development
-**Category**: Code/Testing/CI
-**Description**: name: test-driven-development
+**Description**: Use when implementing any feature or bugfix, before writing implementation code
 **SKILL.md**: `~/.agents/skills/test-driven-development/SKILL.md`
 
 ### testing-anti-patterns
-**Category**: Code/Testing/CI
-**Description**: name: Testing Anti-Patterns
+**Description**: Never test mock behavior. Never add test-only methods to production classes. Understand dependencies before mocking.
 **SKILL.md**: `~/.agents/skills/testing-anti-patterns/SKILL.md`
 
 ### testing-skills-with-subagents
-**Category**: Code/Testing/CI
-**Description**: name: Testing Skills With Subagents
+**Description**: RED-GREEN-REFACTOR for process documentation - baseline without skill, write addressing failures, iterate closing loopholes
 **SKILL.md**: `~/.agents/skills/testing-skills-with-subagents/SKILL.md`
-
-
-## Collaboration/Planning
-
-### agent-teams
-**Category**: Collaboration/Planning
-**Description**: name: agent-teams
-**SKILL.md**: `~/.agents/skills/agent-teams/SKILL.md`
-
-### agent-workspace-sync
-**Category**: Collaboration/Planning
-**Description**: name: agent-workspace-sync
-**SKILL.md**: `~/.agents/skills/agent-workspace-sync/SKILL.md`
 
 
 ## Documentation/Research
 
 ### data-designer
-**Category**: Documentation/Research
-**Description**: name: data-designer
+**Description**: Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.
 **SKILL.md**: `~/.agents/skills/data-designer/SKILL.md`
 
 ### deep-research
-**Category**: Documentation/Research
-**Description**: name: deep-research
+**Description**: Trigger this skill when the user needs comprehensive context gathering before planning or building. Trigger when the user says 'research', 'deep resea
 **SKILL.md**: `~/.agents/skills/deep-research/SKILL.md`
 
 ### document-review
-**Category**: Documentation/Research
-**Description**: name: document-review
+**Description**: Trigger this skill when reviewing any written artifact — even if the user just says 'does this look good'. Trigger when the user says 'review this doc
 **SKILL.md**: `~/.agents/skills/document-review/SKILL.md`
 
 ### forensics
-**Category**: Documentation/Research
-**Description**: name: forensics
+**Description**: Trigger this skill for post-mortem diagnosis of failed, stalled, or aborted automated runs. Trigger when the user says 'why did /ship fail', 'what wen
 **SKILL.md**: `~/.agents/skills/forensics/SKILL.md`
 
 
 ## MCP/Plugin Development
 
 ### mcp-server-scaffold
-**Category**: MCP/Plugin Development
-**Description**: name: mcp-server-scaffold
+**Description**: Trigger this skill for MCP Server Scaffold Skill related tasks.
 **SKILL.md**: `~/.agents/skills/mcp-server-scaffold/SKILL.md`
 
 ### migrate-to-plugin
-**Category**: MCP/Plugin Development
-**Description**: name: migrate-to-plugin
+**Description**: Trigger this skill when a project has v2.x blueprint files (.claude/commands/, .claude/skills/, .claude/agents/) and needs to switch to v3.0 plugin mo
 **SKILL.md**: `~/.agents/skills/migrate-to-plugin/SKILL.md`
 
 
 ## Memory/Cortex/AI Patterns
 
 ### cortex-context-builder
-**Category**: Memory/Cortex/AI Patterns
-**Description**: name: cortex-context-builder
+**Description**: Skill absorbed from OpenCode
 **SKILL.md**: `~/.agents/skills/cortex-context-builder/SKILL.md`
 
 ### cortex-cs
-**Category**: Memory/Cortex/AI Patterns
-**Description**: name: cortex-cs
+**Description**: Cognitive science approach to graph analytics with intent-aware routing and benchmarking
 **SKILL.md**: `~/.agents/skills/cortex-cs/SKILL.md`
 
 ### remembering-conversations
-**Category**: Memory/Cortex/AI Patterns
-**Description**: name: remembering-conversations
+**Description**: You MUST invoke this skill before saying "I don't know," guessing, or treating any topic as new, no matter how trivial the question seems. It suppleme
 **SKILL.md**: `~/.agents/skills/remembering-conversations/SKILL.md`
 
 
 ## Neo4j/Graph Analytics
 
 ### cypher-generator
-**Category**: Neo4j/Graph Analytics
-**Description**: name: cypher-generator
+**Description**: Trigger this skill for Cypher Generator Skill related tasks.
 **SKILL.md**: `~/.agents/skills/cypher-generator/SKILL.md`
 
-### gds-workflow-runner
-**Category**: Neo4j/Graph Analytics
-**Description**: name: gds-workflow-runner
-**SKILL.md**: `~/.agents/skills/gds-workflow-runner/SKILL.md`
-
 ### graph-algorithm-audit
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-algorithm-audit
+**Description**: Trigger this skill for Graph Algorithm Audit Skill related tasks.
 **SKILL.md**: `~/.agents/skills/graph-algorithm-audit/SKILL.md`
 
 ### graph-analytics-bridge
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-analytics-bridge
+**Description**: Trigger this skill for graph-analytics-bridge related tasks.
 **SKILL.md**: `~/.agents/skills/graph-analytics-bridge/SKILL.md`
 
 ### graph-constructor
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-constructor
+**Description**: Trigger this skill for Graph Constructor Skill related tasks.
 **SKILL.md**: `~/.agents/skills/graph-constructor/SKILL.md`
 
 ### graph-experiment-runner
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-experiment-runner
+**Description**: Trigger this skill for Graph Experiment Runner Skill related tasks.
 **SKILL.md**: `~/.agents/skills/graph-experiment-runner/SKILL.md`
 
 ### graph-migrator
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-migrator
+**Description**: Trigger this skill for Graph Migrator Skill related tasks.
 **SKILL.md**: `~/.agents/skills/graph-migrator/SKILL.md`
 
 ### graph-schema-auditor
-**Category**: Neo4j/Graph Analytics
-**Description**: name: graph-schema-auditor
+**Description**: Detect schema anti-patterns: over-connected hubs, missing indexes, label proliferation, orphaned nodes. Uses GDS degree centrality and schema inspecti
 **SKILL.md**: `~/.agents/skills/graph-schema-auditor/SKILL.md`
 
 ### neo4j-agent-memory-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-agent-memory-skill
+**Description**: Authoritative reference for the neo4j-agent-memory Python package — a graph-native memory system for AI agents built on Neo4j — and for the hosted ser
 **SKILL.md**: `~/.agents/skills/neo4j-agent-memory-skill/SKILL.md`
 
 ### neo4j-aura-agent-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-aura-agent-skill
+**Description**: Manages Neo4j Aura Agents via the v2beta1 REST API — create, list, get, update, delete,
 **SKILL.md**: `~/.agents/skills/neo4j-aura-agent-skill/SKILL.md`
 
 ### neo4j-aura-graph-analytics-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-aura-graph-analytics-skill
+**Description**: Serverless Aura Graph Analytics (AGA) GDS Sessions — covers GdsSessions,
 **SKILL.md**: `~/.agents/skills/neo4j-aura-graph-analytics-skill/SKILL.md`
 
 ### neo4j-aura-provisioning-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-aura-provisioning-skill
+**Description**: Provisions and manages Neo4j Aura instances via CLI (aura-cli v1.7+) or REST API.
 **SKILL.md**: `~/.agents/skills/neo4j-aura-provisioning-skill/SKILL.md`
 
 ### neo4j-cypher-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-cypher-skill
+**Description**: Generates, optimizes, and validates Cypher 25 queries for Neo4j 2025.x and 2026.x.
 **SKILL.md**: `~/.agents/skills/neo4j-cypher-skill/SKILL.md`
 
 ### neo4j-document-import-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-document-import-skill
+**Description**: Ingests unstructured and semi-structured documents into Neo4j as a knowledge graph.
 **SKILL.md**: `~/.agents/skills/neo4j-document-import-skill/SKILL.md`
 
 ### neo4j-driver-dotnet-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-driver-dotnet-skill
+**Description**: Neo4j .NET Driver v6 — IDriver lifecycle, DI registration (singleton), ExecutableQuery
 **SKILL.md**: `~/.agents/skills/neo4j-driver-dotnet-skill/SKILL.md`
 
 ### neo4j-driver-go-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-driver-go-skill
+**Description**: Covers the Neo4j Go Driver v6 — driver lifecycle, ExecuteQuery, managed and
 **SKILL.md**: `~/.agents/skills/neo4j-driver-go-skill/SKILL.md`
 
 ### neo4j-driver-java-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-driver-java-skill
+**Description**: Neo4j Java Driver v6 — driver lifecycle, Maven/Gradle setup, executableQuery,
 **SKILL.md**: `~/.agents/skills/neo4j-driver-java-skill/SKILL.md`
 
 ### neo4j-driver-python-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-driver-python-skill
+**Description**: Neo4j Python Driver v6 — driver lifecycle, execute_query, managed and explicit
 **SKILL.md**: `~/.agents/skills/neo4j-driver-python-skill/SKILL.md`
 
 ### neo4j-gds-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-gds-skill
+**Description**: Neo4j Graph Data Science (GDS) embedded plugin via Python client or Cypher —
 **SKILL.md**: `~/.agents/skills/neo4j-gds-skill/SKILL.md`
 
 ### neo4j-genai-plugin-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-genai-plugin-skill
+**Description**: Use Neo4j GenAI Plugin ai.text.* functions and procedures for in-Cypher
 **SKILL.md**: `~/.agents/skills/neo4j-genai-plugin-skill/SKILL.md`
 
 ### neo4j-getting-started-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-getting-started-skill
+**Description**: Orchestrates zero-to-running-app in 8 stages — prerequisites → context →
 **SKILL.md**: `~/.agents/skills/neo4j-getting-started-skill/SKILL.md`
 
 ### neo4j-graphql-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-graphql-skill
+**Description**: Build and configure a GraphQL API backed by Neo4j using @neo4j/graphql v7 (current) or v5 (LTS).
 **SKILL.md**: `~/.agents/skills/neo4j-graphql-skill/SKILL.md`
 
 ### neo4j-graphrag-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-graphrag-skill
+**Description**: Build GraphRAG retrieval pipelines on Neo4j using the neo4j-graphrag Python
 **SKILL.md**: `~/.agents/skills/neo4j-graphrag-skill/SKILL.md`
 
 ### neo4j-import-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-import-skill
+**Description**: Import structured data into Neo4j — LOAD CSV, CALL IN TRANSACTIONS, neo4j-admin
 **SKILL.md**: `~/.agents/skills/neo4j-import-skill/SKILL.md`
 
 ### neo4j-kafka-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-kafka-skill
+**Description**: Configure and operate the Neo4j Connector for Kafka (sink + source) and the
 **SKILL.md**: `~/.agents/skills/neo4j-kafka-skill/SKILL.md`
 
 ### neo4j-modeling-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-modeling-skill
+**Description**: Design, review, and refactor Neo4j graph data models. Use when choosing node
 **SKILL.md**: `~/.agents/skills/neo4j-modeling-skill/SKILL.md`
 
 ### neo4j-nvl-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-nvl-skill
+**Description**: Neo4j Visualization Library (NVL) — framework-agnostic graph rendering for the browser.
 **SKILL.md**: `~/.agents/skills/neo4j-nvl-skill/SKILL.md`
 
 ### neo4j-query-tuning-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-query-tuning-skill
+**Description**: Diagnoses and fixes slow Neo4j Cypher queries by reading execution plans, identifying
 **SKILL.md**: `~/.agents/skills/neo4j-query-tuning-skill/SKILL.md`
 
 ### neo4j-security-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-security-skill
+**Description**: Programmatic security management in Neo4j — RBAC/ABAC, user lifecycle (CREATE/ALTER/DROP USER),
 **SKILL.md**: `~/.agents/skills/neo4j-security-skill/SKILL.md`
 
 ### neo4j-snowflake-graph-analytics-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-snowflake-graph-analytics-skill
+**Description**: Run Neo4j Graph Analytics algorithms (PageRank, Louvain, WCC, Dijkstra, KNN,
 **SKILL.md**: `~/.agents/skills/neo4j-snowflake-graph-analytics-skill/SKILL.md`
 
 ### neo4j-spark-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-spark-skill
+**Description**: Use when reading from or writing to Neo4j with Apache Spark or Databricks using the
 **SKILL.md**: `~/.agents/skills/neo4j-spark-skill/SKILL.md`
 
 ### neo4j-vector-index-skill
-**Category**: Neo4j/Graph Analytics
-**Description**: name: neo4j-vector-index-skill
+**Description**: Create and manage Neo4j vector indexes, run vector similarity search (ANN/kNN),
 **SKILL.md**: `~/.agents/skills/neo4j-vector-index-skill/SKILL.md`
 
 
 ## NVIDIA/NeMo/AI Infrastructure
 
 ### nemo-automodel-distributed-training
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-automodel-distributed-training
+**Description**: Guide for selecting and configuring distributed training strategies in NeMo AutoModel, including FSDP2, Megatron FSDP, DDP, and parallelism settings.
 **SKILL.md**: `~/.agents/skills/nemo-automodel-distributed-training/SKILL.md`
 
 ### nemo-automodel-launcher-config
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-automodel-launcher-config
+**Description**: Configure NeMo AutoModel job launches for interactive runs, Slurm clusters, and SkyPilot cloud execution.
 **SKILL.md**: `~/.agents/skills/nemo-automodel-launcher-config/SKILL.md`
 
 ### nemo-automodel-model-onboarding
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-automodel-model-onboarding
+**Description**: Guide for onboarding new model architectures into NeMo AutoModel, including architecture discovery, implementation patterns, registration, and validat
 **SKILL.md**: `~/.agents/skills/nemo-automodel-model-onboarding/SKILL.md`
 
 ### nemo-automodel-recipe-development
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-automodel-recipe-development
+**Description**: Create and modify NeMo AutoModel training and evaluation recipes, including YAML structure, builders, and execution flow.
 **SKILL.md**: `~/.agents/skills/nemo-automodel-recipe-development/SKILL.md`
 
 ### nemo-data-designer-plugin
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-data-designer-plugin
+**Description**: Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.
 **SKILL.md**: `~/.agents/skills/nemo-data-designer-plugin/SKILL.md`
 
 ### nemo-evaluator-plugin
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-evaluator-plugin
+**Description**: Use when working on the Evaluator plugin CLI, jobs, SDK-backed specs, metric types, or plugin-owned Evaluator skills.
 **SKILL.md**: `~/.agents/skills/nemo-evaluator-plugin/SKILL.md`
 
 ### nemo-mbridge-mlm-bridge-training
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-mlm-bridge-training
+**Description**: Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data. Covers correlation testing, available recipes, and multi-GPU examples.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-mlm-bridge-training/SKILL.md`
 
 ### nemo-mbridge-multi-node-slurm
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-multi-node-slurm
+**Description**: Convert single-node scripts to multi-node Slurm sbatch jobs and debug common multi-node failures. Covers srun-native vs uv run torch.distributed appro
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-multi-node-slurm/SKILL.md`
 
 ### nemo-mbridge-perf-activation-recompute
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-activation-recompute
+**Description**: Validate and use selective and full activation recompute in Megatron Bridge to reduce GPU memory usage at the cost of extra compute.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-activation-recompute/SKILL.md`
 
 ### nemo-mbridge-perf-cpu-offloading
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-cpu-offloading
+**Description**: Validate and use CPU offloading in Megatron Bridge, including layer-level activation offloading and fractional optimizer state offloading with HybridD
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-cpu-offloading/SKILL.md`
 
 ### nemo-mbridge-perf-cuda-graphs
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-cuda-graphs
+**Description**: Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP,
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-cuda-graphs/SKILL.md`
 
 ### nemo-mbridge-perf-expert-parallel-overlap
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-expert-parallel-overlap
+**Description**: Validate and use MoE expert-parallel communication overlap in Megatron-Bridge, including overlap_moe_expert_parallel_comm, delay_wgrad_compute, and fl
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-expert-parallel-overlap/SKILL.md`
 
 ### nemo-mbridge-perf-hierarchical-context-parallel
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-hierarchical-context-parallel
+**Description**: Operational guide for enabling hierarchical context parallelism in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-hierarchical-context-parallel/SKILL.md`
 
 ### nemo-mbridge-perf-megatron-fsdp
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-megatron-fsdp
+**Description**: Operational guide for enabling Megatron FSDP in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verification.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-megatron-fsdp/SKILL.md`
 
 ### nemo-mbridge-perf-memory-tuning
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-memory-tuning
+**Description**: Techniques for reducing peak GPU memory in Megatron Bridge — expandable segments, PEFT + SP input re-gather, parallelism resizing, activation recomput
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-memory-tuning/SKILL.md`
 
 ### nemo-mbridge-perf-moe-comm-overlap
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-comm-overlap
+**Description**: MoE expert-parallel communication overlap in Megatron Bridge. Covers dispatch/combine overlap, flex dispatcher backends, and expert wgrad scheduling.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-comm-overlap/SKILL.md`
 
 ### nemo-mbridge-perf-moe-dispatcher-selection
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-dispatcher-selection
+**Description**: Choose the right MoE token dispatcher (`alltoall`, DeepEP, or HybridEP) for the hardware, EP degree, and optimization stage. Summarizes patterns from 
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-dispatcher-selection/SKILL.md`
 
 ### nemo-mbridge-perf-moe-hardware-configs
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-hardware-configs
+**Description**: Representative MoE training playbooks by hardware platform and model family. Summarizes rounded throughput bands, parallelism patterns, and common tun
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-hardware-configs/SKILL.md`
 
 ### nemo-mbridge-perf-moe-long-context
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-long-context
+**Description**: Long-context MoE training guidance for Megatron Bridge. Covers CP sizing, selective recompute, dispatcher choices, and practical patterns from DSV3, Q
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-long-context/SKILL.md`
 
 ### nemo-mbridge-perf-moe-optimization-workflow
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-optimization-workflow
+**Description**: Systematic workflow for MoE training optimization in Megatron Bridge, based on the Megatron-Core MoE paper. Covers the Three Walls framework, parallel
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-optimization-workflow/SKILL.md`
 
 ### nemo-mbridge-perf-moe-vlm-training
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-moe-vlm-training
+**Description**: Practical guidance for training MoE VLMs in Megatron Bridge. Compares FSDP and 3D-parallel approaches, using rounded lessons from Qwen3-VL, Qwen3-Next
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-moe-vlm-training/SKILL.md`
 
 ### nemo-mbridge-perf-parallelism-strategies
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-parallelism-strategies
+**Description**: Operational guide for choosing and combining parallelism strategies in Megatron Bridge, including sizing rules, hardware topology mapping, and combine
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-parallelism-strategies/SKILL.md`
 
 ### nemo-mbridge-perf-sequence-packing
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-sequence-packing
+**Description**: Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packed SFT for LLMs from in-batch packing for V
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-sequence-packing/SKILL.md`
 
 ### nemo-mbridge-perf-tp-dp-comm-overlap
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-perf-tp-dp-comm-overlap
+**Description**: Operational guide for enabling TP, DP, and PP communication overlap in Megatron-Bridge, including config knobs, code anchors, pitfalls, and verificati
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-perf-tp-dp-comm-overlap/SKILL.md`
 
 ### nemo-mbridge-recipe-recommender
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-recipe-recommender
+**Description**: Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal. Indexes library recipes (pretrain/SFT/PEFT) and perf
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-recipe-recommender/SKILL.md`
 
 ### nemo-mbridge-resiliency
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-mbridge-resiliency
+**Description**: Resiliency features in Megatron Bridge including fault tolerance, straggler detection, in-process restart, preemption, and re-run state machine.
 **SKILL.md**: `~/.agents/skills/nemo-mbridge-resiliency/SKILL.md`
 
 ### nemo-relay-debug-runtime-integration
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-debug-runtime-integration
+**Description**: Use this skill when NeMo Relay is installed or imported but application-side runtime behavior is missing or incorrect, including load failures, inacti
 **SKILL.md**: `~/.agents/skills/nemo-relay-debug-runtime-integration/SKILL.md`
 
 ### nemo-relay-get-started
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-get-started
+**Description**: Use this skill when first-time NeMo Relay users want to try Relay, choose the least-complex supported quick start, or verify initial value through the
 **SKILL.md**: `~/.agents/skills/nemo-relay-get-started/SKILL.md`
 
 ### nemo-relay-install
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-install
+**Description**: Use this skill when choosing or running NeMo Relay installation for the CLI, Python, Node.js, Rust, OpenClaw, Hermes, or maintained framework integrat
 **SKILL.md**: `~/.agents/skills/nemo-relay-install/SKILL.md`
 
 ### nemo-relay-instrument-calls
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-instrument-calls
+**Description**: Use this skill when an application owns tool or LLM/provider call sites and needs to wrap them with NeMo Relay scopes and managed execution APIs for l
 **SKILL.md**: `~/.agents/skills/nemo-relay-instrument-calls/SKILL.md`
 
 ### nemo-relay-instrument-context-isolation
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-instrument-context-isolation
+**Description**: Use this skill when concurrent requests, async tasks, threads, workers, goroutines, or agents need independent NeMo Relay scope stacks and correct anc
 **SKILL.md**: `~/.agents/skills/nemo-relay-instrument-context-isolation/SKILL.md`
 
 ### nemo-relay-instrument-typed-wrappers
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-instrument-typed-wrappers
+**Description**: Use this skill when adding NeMo Relay typed wrappers, domain types, or provider codecs while preserving JSON middleware semantics and caller-visible b
 **SKILL.md**: `~/.agents/skills/nemo-relay-instrument-typed-wrappers/SKILL.md`
 
 ### nemo-relay-migrate-from-flow
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-migrate-from-flow
+**Description**: Use this skill when migrating applications, examples, integrations, documentation, manifests, or repository code from NeMo Flow to NeMo Relay across P
 **SKILL.md**: `~/.agents/skills/nemo-relay-migrate-from-flow/SKILL.md`
 
 ### nemo-relay-plugin-adaptive-tuning
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-plugin-adaptive-tuning
+**Description**: Use this skill when baseline NeMo Relay instrumentation exists and the user wants to configure or evaluate adaptive plugin behavior, including telemet
 **SKILL.md**: `~/.agents/skills/nemo-relay-plugin-adaptive-tuning/SKILL.md`
 
 ### nemo-relay-plugin-build
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-plugin-build
+**Description**: Use this skill when building or packaging reusable NeMo Relay runtime behavior as a configuration-activated plugin with deterministic validation and r
 **SKILL.md**: `~/.agents/skills/nemo-relay-plugin-build/SKILL.md`
 
 ### nemo-relay-plugin-observability
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-relay-plugin-observability
+**Description**: Use this skill when choosing or configuring NeMo Relay 0.6 or 0.7 observability through the built-in plugin, subscribers, or exporters, including raw 
 **SKILL.md**: `~/.agents/skills/nemo-relay-plugin-observability/SKILL.md`
 
 ### nemo-retriever
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-retriever
+**Description**: Use when the user wants to search, query, extract, transcribe, describe, quote, filter, or aggregate across documents — PDFs, scanned forms / images (
 **SKILL.md**: `~/.agents/skills/nemo-retriever/SKILL.md`
 
 ### nemo-rl-auto-research
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-rl-auto-research
+**Description**: Autonomous NeMo-RL research agent workflow for directed hypothesis testing and open-ended discovery. Guides agents through the full experiment lifecyc
 **SKILL.md**: `~/.agents/skills/nemo-rl-auto-research/SKILL.md`
 
 ### nemo-rl-brev-etiquette
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-rl-brev-etiquette
+**Description**: Brev instance operating guidance for NeMo-RL agents working in /home/ubuntu/RL with limited workspace disk, a larger /ephemeral volume, and optional /
 **SKILL.md**: `~/.agents/skills/nemo-rl-brev-etiquette/SKILL.md`
 
 ### nemo-rl-docs
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-rl-docs
+**Description**: Documentation conventions for NeMo-RL. Covers docs/index.md updates and docstring format. Do NOT use for: bug fixes, test fixes, dependency bumps, ref
 **SKILL.md**: `~/.agents/skills/nemo-rl-docs/SKILL.md`
 
 ### nemo-rl-session-memory
-**Category**: NVIDIA/NeMo/AI Infrastructure
-**Description**: name: nemo-rl-session-memory
+**Description**: Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restart
 **SKILL.md**: `~/.agents/skills/nemo-rl-session-memory/SKILL.md`
 
 
 ## Other
 
 ### arbitrage-detector
-**Category**: Other
-**Description**: name: arbitrage-detector
+**Description**: Trigger this skill for Arbitrage Detector Skill related tasks.
 **SKILL.md**: `~/.agents/skills/arbitrage-detector/SKILL.md`
 
 ### autonomous-loop
-**Category**: Other
-**Description**: name: autonomous-loop
+**Description**: Trigger this skill when executing multi-task plans autonomously with retry logic and no human checkpoints. Trigger scenarios: 'run autonomously', 'kee
 **SKILL.md**: `~/.agents/skills/autonomous-loop/SKILL.md`
 
 ### blockchain-pattern-analyzer
-**Category**: Other
-**Description**: name: blockchain-pattern-analyzer
+**Description**: Trigger this skill for Blockchain Pattern Analyzer Skill related tasks.
 **SKILL.md**: `~/.agents/skills/blockchain-pattern-analyzer/SKILL.md`
 
 ### cluster-quality-assessor
-**Category**: Other
-**Description**: name: cluster-quality-assessor
+**Description**: Evaluate community structure quality using Louvain modularity, WCC connectivity, and silhouette scores. Generates a cluster health report for the know
 **SKILL.md**: `~/.agents/skills/cluster-quality-assessor/SKILL.md`
 
 ### ds-capability-reporter
-**Category**: Other
-**Description**: name: ds-capability-reporter
+**Description**: Trigger this skill for DS Capability Reporter Skill related tasks.
 **SKILL.md**: `~/.agents/skills/ds-capability-reporter/SKILL.md`
 
+### gds-workflow-runner
+**Description**: Trigger this skill for GDS Workflow Runner Skill related tasks.
+**SKILL.md**: `~/.agents/skills/gds-workflow-runner/SKILL.md`
+
 ### microsoft-foundry
-**Category**: Other
-**Description**: name: microsoft-foundry
+**Description**: Deploy, evaluate, fine-tune, and manage Foundry agents end-to-end with azd: hosted agent scaffold/run/deploy, prompt agent create, batch eval, continu
 **SKILL.md**: `~/.agents/skills/microsoft-foundry/SKILL.md`
 
 ### migration-planning
-**Category**: Other
-**Description**: name: migration-planning
+**Description**: Trigger this skill for any change requiring careful sequencing, data transformation, and rollback capability — even if the user doesn't call it a 'mig
 **SKILL.md**: `~/.agents/skills/migration-planning/SKILL.md`
 
 ### nemoclaw-user-guide
-**Category**: Other
-**Description**: name: "nemoclaw-user-guide"
+**Description**: Guides human users' AI agents to the NemoClaw docs MCP server and canonical Fern documentation in Markdown form. Use when users ask how to install, co
 **SKILL.md**: `~/.agents/skills/nemoclaw-user-guide/SKILL.md`
 
 ### node-consolidation-agent
-**Category**: Other
-**Description**: name: node-consolidation-agent
+**Description**: Merge equivalent nodes identified by redundancy-detector. Uses Louvain community detection to group related nodes, then generates safe merge Cypher wi
 **SKILL.md**: `~/.agents/skills/node-consolidation-agent/SKILL.md`
 
 ### omniverse-cad-to-simready
-**Category**: Other
-**Description**: name: omniverse-cad-to-simready
+**Description**: Coordinate the end-to-end CAD/source-asset to SimReady workflow. Use for broad requests such as CAD to SimReady, source asset to simulation-ready USD,
 **SKILL.md**: `~/.agents/skills/omniverse-cad-to-simready/SKILL.md`
 
 ### omniverse-realtime-viewer
-**Category**: Other
-**Description**: name: omniverse-realtime-viewer
+**Description**: Use as the top-level router for Omniverse Realtime Viewer USD app requests and focused viewer reference documents.
 **SKILL.md**: `~/.agents/skills/omniverse-realtime-viewer/SKILL.md`
 
 ### omniverse-usd-performance-tuning
-**Category**: Other
-**Description**: name: omniverse-usd-performance-tuning
+**Description**: Top-level workflow skill for USD performance diagnosis and optimization. Handles slow loading, high memory, low FPS, and broad scene-optimization requ
 **SKILL.md**: `~/.agents/skills/omniverse-usd-performance-tuning/SKILL.md`
 
 ### orchestrate
-**Category**: Other
-**Description**: name: orchestrate
+**Description**: Trigger this skill when executing plans with parallelizable tasks using dependency-ordered waves. Trigger scenarios: 'parallel', 'waves', 'orchestrate
 **SKILL.md**: `~/.agents/skills/orchestrate/SKILL.md`
 
 ### pause-checkpoint
-**Category**: Other
-**Description**: name: pause-checkpoint
+**Description**: Trigger this skill when the user says 'pause', 'checkpoint', 'save state', 'stepping away', 'break', 'save progress', 'brb', 'hold on', 'save where I 
 **SKILL.md**: `~/.agents/skills/pause-checkpoint/SKILL.md`
 
 ### performance-profiling
-**Category**: Other
-**Description**: name: performance-profiling
+**Description**: Trigger this skill whenever the user mentions performance concerns — even if they want to jump straight to optimizing. Trigger when the user says 'slo
 **SKILL.md**: `~/.agents/skills/performance-profiling/SKILL.md`
 
 ### plugin-update
-**Category**: Other
-**Description**: name: plugin-update
+**Description**: Trigger this skill when the user wants to update the Claude Code Blueprint plugin from GitHub — even if they just say 'update' without specifying what
 **SKILL.md**: `~/.agents/skills/plugin-update/SKILL.md`
 
 ### portfolio-optimization
-**Category**: Other
-**Description**: name: portfolio-optimization
+**Description**: Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, Mean-Variance/SOCP variance caps, efficient
 **SKILL.md**: `~/.agents/skills/portfolio-optimization/SKILL.md`
 
 ### professional-article-generator
-**Category**: Other
-**Description**: name: professional-article-generator
+**Description**: Trigger this skill for professional-article-generator related tasks.
 **SKILL.md**: `~/.agents/skills/professional-article-generator/SKILL.md`
 
 ### project-start
-**Category**: Other
-**Description**: name: project-start
+**Description**: Trigger this skill when the user says 'start', 'init', 'initialize', 'set up', 'new project', 'scaffold', 'configure project', 'get started', 'bootstr
 **SKILL.md**: `~/.agents/skills/project-start/SKILL.md`
 
 ### project-status
-**Category**: Other
-**Description**: name: project-status
+**Description**: Trigger this skill when the user says 'status', 'where are we', 'what's going on', 'project state', 'what's next', 'priorities', 'what should I work o
 **SKILL.md**: `~/.agents/skills/project-status/SKILL.md`
 
 ### pr-workflow
-**Category**: Other
-**Description**: name: pr-workflow
+**Description**: Trigger this skill whenever a branch is ready to merge or PR review comments arrive — even if the user doesn't explicitly mention PRs. Trigger when th
 **SKILL.md**: `~/.agents/skills/pr-workflow/SKILL.md`
 
 ### pulling-updates-from-skills-repository
-**Category**: Other
-**Description**: name: Pulling Updates from Skills Repository
+**Description**: Sync local skills repository with upstream changes from obra/superpowers-skills
 **SKILL.md**: `~/.agents/skills/pulling-updates-from-skills-repository/SKILL.md`
 
 ### python-appservice-deploy
-**Category**: Other
-**Description**: name: python-appservice-deploy
+**Description**: Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"
 **SKILL.md**: `~/.agents/skills/python-appservice-deploy/SKILL.md`
 
 ### quick-fix
-**Category**: Other
-**Description**: name: quick-fix
+**Description**: Trigger this skill for ANY small, well-understood change, even if the user doesn't explicitly say 'quick'. Trigger scenarios: 'fix this bug', 'small c
 **SKILL.md**: `~/.agents/skills/quick-fix/SKILL.md`
 
 ### rag-blueprint
-**Category**: Other
-**Description**: name: rag-blueprint
+**Description**: NVIDIA RAG Blueprint — deploy, configure, troubleshoot, and manage. Handles any RAG action: deploy, install, start, enable, disable, toggle, change, c
 **SKILL.md**: `~/.agents/skills/rag-blueprint/SKILL.md`
 
 ### receiving-code-review
-**Category**: Other
-**Description**: name: receiving-code-review
+**Description**: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires 
 **SKILL.md**: `~/.agents/skills/receiving-code-review/SKILL.md`
 
 ### redundancy-detector
-**Category**: Other
-**Description**: name: redundancy-detector
+**Description**: Find semantically duplicate nodes across workspaces using GDS NodeSimilarity (Jaccard/Cosine). Identifies merge candidates and SAME_AS relationship op
 **SKILL.md**: `~/.agents/skills/redundancy-detector/SKILL.md`
 
 ### relationship-optimizer
-**Category**: Other
-**Description**: name: relationship-optimizer
+**Description**: Suggest missing relationships and better relationship types using GDS link prediction (AdamicAdar, CommonNeighbors, PreferentialAttachment).
 **SKILL.md**: `~/.agents/skills/relationship-optimizer/SKILL.md`
 
 ### requesting-code-review
-**Category**: Other
-**Description**: name: Requesting Code Review
+**Description**: Dispatch code-reviewer subagent to review implementation against plan or requirements before proceeding
 **SKILL.md**: `~/.agents/skills/requesting-code-review/SKILL.md`
 
 ### resolve-in-parallel
-**Category**: Other
-**Description**: name: resolve-in-parallel
+**Description**: Trigger this skill when there are multiple independent items to fix concurrently — even if the user doesn't mention parallelism. Trigger when the user
 **SKILL.md**: `~/.agents/skills/resolve-in-parallel/SKILL.md`
 
 ### resume-session
-**Category**: Other
-**Description**: name: resume-session
+**Description**: Trigger this skill when the user says 'resume', 'continue', 'pick up where I left off', 'what was I working on', 'last session', 'keep going', 'where 
 **SKILL.md**: `~/.agents/skills/resume-session/SKILL.md`
 
 ### review-swarm
-**Category**: Other
-**Description**: name: review-swarm
+**Description**: Trigger this skill when the user says 'review swarm', 'full review', 'multi-agent review', 'comprehensive review', 'review everything', 'thorough revi
 **SKILL.md**: `~/.agents/skills/review-swarm/SKILL.md`
 
 ### scope-cutting
-**Category**: Other
-**Description**: name: scope-cutting
+**Description**: Trigger this skill when a feature is too large, a plan has grown unwieldy, or timeline pressure demands cutting scope. Trigger when the user says 'sco
 **SKILL.md**: `~/.agents/skills/scope-cutting/SKILL.md`
 
 ### skill-card-generator
-**Category**: Other
-**Description**: name: "skill-card-generator"
+**Description**: Use only to generate or update a governance skill card for a specified existing agent skill directory. Do not use for explaining, listing, comparing, 
 **SKILL.md**: `~/.agents/skills/skill-card-generator/SKILL.md`
 
 ### source-driven-development
-**Category**: Other
-**Description**: name: source-driven-development
+**Description**: Trigger this skill when writing framework- or library-specific code (forms, routing, data fetching, state management, auth, hooks, components, ORM que
 **SKILL.md**: `~/.agents/skills/source-driven-development/SKILL.md`
 
 ### spike-exploration
-**Category**: Other
-**Description**: name: spike-exploration
+**Description**: Trigger this skill when there is significant technical uncertainty about whether an approach will work and hands-on code exploration is needed to answ
 **SKILL.md**: `~/.agents/skills/spike-exploration/SKILL.md`
 
 ### subagent-driven-development
-**Category**: Other
-**Description**: name: Subagent-Driven Development
+**Description**: Execute implementation plan by dispatching fresh subagent for each task, with code review between tasks
 **SKILL.md**: `~/.agents/skills/subagent-driven-development/SKILL.md`
 
 ### swarm-orchestration
-**Category**: Other
-**Description**: name: swarm-orchestration
+**Description**: Trigger this skill for Swarm Orchestration related tasks.
 **SKILL.md**: `~/.agents/skills/swarm-orchestration/SKILL.md`
 
 ### systematic-debugging
-**Category**: Other
-**Description**: name: Systematic Debugging
+**Description**: Four-phase debugging framework that ensures root cause investigation before attempting fixes. Never jump to solutions.
 **SKILL.md**: `~/.agents/skills/systematic-debugging/SKILL.md`
 
 ### team-execution
-**Category**: Other
-**Description**: name: team-execution
+**Description**: Trigger this skill for Team Execution — Collaborative Agent Team related tasks.
 **SKILL.md**: `~/.agents/skills/team-execution/SKILL.md`
 
 ### using-git-worktrees
-**Category**: Other
-**Description**: name: Using Git Worktrees
+**Description**: Create isolated git worktrees with smart directory selection and safety verification
 **SKILL.md**: `~/.agents/skills/using-git-worktrees/SKILL.md`
 
 ### using-superpowers
-**Category**: Other
-**Description**: name: using-superpowers
+**Description**: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying quest
 **SKILL.md**: `~/.agents/skills/using-superpowers/SKILL.md`
 
 ### verification-before-completion
-**Category**: Other
-**Description**: name: Verification Before Completion
+**Description**: Run verification commands and confirm output before claiming success
 **SKILL.md**: `~/.agents/skills/verification-before-completion/SKILL.md`
 
 ### wave-orchestration
-**Category**: Other
-**Description**: name: wave-orchestration
+**Description**: Trigger this skill for Wave Orchestration related tasks.
 **SKILL.md**: `~/.agents/skills/wave-orchestration/SKILL.md`
 
 ### web-design-guidelines
-**Category**: Other
-**Description**: name: web-design-guidelines
+**Description**: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "chec
 **SKILL.md**: `~/.agents/skills/web-design-guidelines/SKILL.md`
 
 ### workflow
-**Category**: Other
 **Description**: (no SKILL.md found)
 **SKILL.md**: `~/.agents/skills/workflow/SKILL.md`
 
 ### writing-guidelines
-**Category**: Other
-**Description**: name: writing-guidelines
+**Description**: Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and 
 **SKILL.md**: `~/.agents/skills/writing-guidelines/SKILL.md`
 
 ### writing-plans
-**Category**: Other
-**Description**: name: Writing Plans
+**Description**: Create detailed implementation plans with bite-sized tasks for engineers with zero codebase context
 **SKILL.md**: `~/.agents/skills/writing-plans/SKILL.md`
 
 ### writing-skills
-**Category**: Other
-**Description**: name: Writing Skills
+**Description**: TDD for process documentation - test with subagents before writing, iterate until bulletproof
 **SKILL.md**: `~/.agents/skills/writing-skills/SKILL.md`
 
 
 ## Thinking/Collaboration/Planning
 
 ### absorb-new-skills-from-opencode-agent
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: absorb-new-skills-from-opencode-agent
+**Description**: Trigger this skill when the user asks to sync, merge, compare, or absorb OpenCode skills into Cline. Use when the user wants to keep Cline skills in s
 **SKILL.md**: `~/.agents/skills/absorb-new-skills-from-opencode-agent/SKILL.md`
 
+### agent-teams
+**Description**: Trigger this skill when spawning collaborative Claude Code instances with shared task lists and messaging — for complex multi-file implementations whe
+**SKILL.md**: `~/.agents/skills/agent-teams/SKILL.md`
+
+### agent-workspace-sync
+**Description**: Trigger this skill when the user wants to register a new agent in the workspace registry, sync/snapshot any agent's live config into the agents-worksp
+**SKILL.md**: `~/.agents/skills/agent-workspace-sync/SKILL.md`
+
 ### brainstorming-ideas-into-designs
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Brainstorming Ideas Into Designs
+**Description**: Interactive idea refinement using Socratic method to develop fully-formed designs
 **SKILL.md**: `~/.agents/skills/brainstorming-ideas-into-designs/SKILL.md`
 
 ### brainstorming
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: brainstorming
+**Description**: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent
 **SKILL.md**: `~/.agents/skills/brainstorming/SKILL.md`
 
 ### code-review-reception
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Code Review Reception
+**Description**: Receive and act on code review feedback with technical rigor, not performative agreement or blind implementation
 **SKILL.md**: `~/.agents/skills/code-review-reception/SKILL.md`
 
 ### collision-zone-thinking
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Collision-Zone Thinking
+**Description**: Force unrelated concepts together to discover emergent properties - "What if we treated X like Y?
 **SKILL.md**: `~/.agents/skills/collision-zone-thinking/SKILL.md`
 
 ### condition-based-waiting
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Condition-Based Waiting
+**Description**: Replace arbitrary timeouts with condition polling for reliable async tests
 **SKILL.md**: `~/.agents/skills/condition-based-waiting/SKILL.md`
 
 ### context-checkpoint
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: context-checkpoint
+**Description**: Trigger this skill when the context window is getting large and you need a recovery point, when switching between major tasks within a session, or bef
 **SKILL.md**: `~/.agents/skills/context-checkpoint/SKILL.md`
 
 ### deepen-plan
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: deepen-plan
+**Description**: Trigger this skill when a plan exists but lacks depth, research backing, or framework-specific details. Trigger when the user says 'deepen', 'enrich t
 **SKILL.md**: `~/.agents/skills/deepen-plan/SKILL.md`
 
 ### defense-in-depth-validation
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Defense-in-Depth Validation
+**Description**: Validate at every layer data passes through to make bugs impossible
 **SKILL.md**: `~/.agents/skills/defense-in-depth-validation/SKILL.md`
 
 ### discuss
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: discuss
+**Description**: Trigger this skill when the user wants to lock down decisions, capture requirements, or clarify assumptions before planning begins. Trigger when the u
 **SKILL.md**: `~/.agents/skills/discuss/SKILL.md`
 
 ### dispatching-parallel-agents
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Dispatching Parallel Agents
+**Description**: Use multiple Claude agents to investigate and fix independent problems concurrently
 **SKILL.md**: `~/.agents/skills/dispatching-parallel-agents/SKILL.md`
 
 ### executing-plans
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Executing Plans
+**Description**: Execute detailed plans in batches with review checkpoints
 **SKILL.md**: `~/.agents/skills/executing-plans/SKILL.md`
 
 ### find-last-plan
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: find-last-plan
+**Description**: Trigger this skill when the user asks 'find the last plan', 'what were we working on', 'last plan', 'find the last plan being worked on and report', '
 **SKILL.md**: `~/.agents/skills/find-last-plan/SKILL.md`
 
 ### find-skills
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: find-skills
+**Description**: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or e
 **SKILL.md**: `~/.agents/skills/find-skills/SKILL.md`
 
 ### finishing-a-development-branch
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Finishing a Development Branch
+**Description**: Complete feature development with structured options for merge, PR, or cleanup
 **SKILL.md**: `~/.agents/skills/finishing-a-development-branch/SKILL.md`
 
 ### gardening-skills-wiki
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Gardening Skills Wiki
+**Description**: Maintain skills wiki health - check links, naming, cross-references, and coverage
 **SKILL.md**: `~/.agents/skills/gardening-skills-wiki/SKILL.md`
 
 ### ideation
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: ideation
+**Description**: Trigger this skill when the user wants improvement ideas, project direction suggestions, or creative inspiration for what to work on next. Trigger whe
 **SKILL.md**: `~/.agents/skills/ideation/SKILL.md`
 
 ### inversion-exercise
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Inversion Exercise
+**Description**: Flip core assumptions to reveal hidden constraints and alternative approaches - "what if the opposite were true?
 **SKILL.md**: `~/.agents/skills/inversion-exercise/SKILL.md`
 
 ### iterative-refinement
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: iterative-refinement
+**Description**: Trigger this skill when code needs repeated review-fix-review cycles until quality converges, when the user says 'iterate on quality', 'keep improving
 **SKILL.md**: `~/.agents/skills/iterative-refinement/SKILL.md`
 
 ### knowledge-compounding
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: knowledge-compounding
+**Description**: Trigger this skill after solving any non-trivial problem — even if the user doesn't explicitly ask to document it. Trigger when the user says 'compoun
 **SKILL.md**: `~/.agents/skills/knowledge-compounding/SKILL.md`
 
 ### meta-pattern-recognition
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Meta-Pattern Recognition
+**Description**: Spot patterns appearing in 3+ domains to find universal principles
 **SKILL.md**: `~/.agents/skills/meta-pattern-recognition/SKILL.md`
 
 ### preserving-productive-tensions
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Preserving Productive Tensions
+**Description**: Recognize when disagreements reveal valuable context, preserve multiple valid approaches instead of forcing premature resolution
 **SKILL.md**: `~/.agents/skills/preserving-productive-tensions/SKILL.md`
 
 ### root-cause-tracing
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Root Cause Tracing
+**Description**: Systematically trace bugs backward through call stack to find original trigger
 **SKILL.md**: `~/.agents/skills/root-cause-tracing/SKILL.md`
 
 ### scale-game
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Scale Game
+**Description**: Test at extremes (1000x bigger/smaller, instant/year-long) to expose fundamental truths hidden at normal scales
 **SKILL.md**: `~/.agents/skills/scale-game/SKILL.md`
 
 ### sharing-skills
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Sharing Skills
+**Description**: Contribute skills back to upstream via branch and PR
 **SKILL.md**: `~/.agents/skills/sharing-skills/SKILL.md`
 
 ### simplification-cascades
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Simplification Cascades
+**Description**: Find one insight that eliminates multiple components - "if this is true, we don't need X, Y, or Z
 **SKILL.md**: `~/.agents/skills/simplification-cascades/SKILL.md`
 
 ### tracing-knowledge-lineages
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: Tracing Knowledge Lineages
+**Description**: Understand how ideas evolved over time to find old solutions for new problems and avoid repeating past failures
 **SKILL.md**: `~/.agents/skills/tracing-knowledge-lineages/SKILL.md`
 
 ### when-stuck-problem-solving-dispatch
-**Category**: Thinking/Collaboration/Planning
-**Description**: name: When Stuck - Problem-Solving Dispatch
+**Description**: Dispatch to the right problem-solving technique based on how you're stuck
 **SKILL.md**: `~/.agents/skills/when-stuck-problem-solving-dispatch/SKILL.md`
 
 
 ## Vercel/Deployment
 
 ### deploy-to-vercel
-**Category**: Vercel/Deployment
-**Description**: name: deploy-to-vercel
+**Description**: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push t
 **SKILL.md**: `~/.agents/skills/deploy-to-vercel/SKILL.md`
 
 ### vercel-cli-with-tokens
-**Category**: Vercel/Deployment
-**Description**: name: vercel-cli-with-tokens
+**Description**: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive lo
 **SKILL.md**: `~/.agents/skills/vercel-cli-with-tokens/SKILL.md`
 
 ### vercel-optimize
-**Category**: Vercel/Deployment
-**Description**: name: vercel-optimize
+**Description**: Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel met
 **SKILL.md**: `~/.agents/skills/vercel-optimize/SKILL.md`
 
 ### vercel-react-best-practices
-**Category**: Vercel/Deployment
-**Description**: name: vercel-react-best-practices
+**Description**: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React
 **SKILL.md**: `~/.agents/skills/vercel-react-best-practices/SKILL.md`
 
 ### vercel-react-view-transitions
-**Category**: Vercel/Deployment
-**Description**: name: vercel-react-view-transitions
+**Description**: Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS
 **SKILL.md**: `~/.agents/skills/vercel-react-view-transitions/SKILL.md`
 
