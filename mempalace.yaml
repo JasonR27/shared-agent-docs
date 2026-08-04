@@ -1,0 +1,15 @@
+wing: shared_agent_docs
+rooms:
+- name: skills
+  description: Files from skills/
+  keywords:
+  - skills
+  - skills
+- name: sessions
+  description: Files from sessions/
+  keywords:
+  - sessions
+  - sessions
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

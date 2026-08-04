@@ -199,7 +199,23 @@ All 5 agents have access to the same 18 MCP servers. ✅ COMPLETE
 
 ### Shared Docs
 - ✅ Repo created at `~/Documents/Github/JasonR27/shared-agent-docs/`
-- ✅ PROTOCOL.md (immutable) written
+- ✅ GitHub remote: https://github.com/JasonR27/shared-agent-docs
+- ✅ PROTOCOL.md (immutable) written + locked (chmod 444)
 - ✅ AGENT_UPDATES.md (this file) written
-- `sessions/` directory ready for coworking session files
-- `skills/` directory ready for cross-agent skill documentation
+- ✅ Full skills report: `skills/SKILLS_FULL_REPORT.md` (206 skills, 10 categories)
+- ✅ Session plan: `sessions/2026-08-04-skills-and-protocol-setup.md`
+- ✅ MemPalace: 146 drawers filed in `CrossAgentProtocol` wing
+- ✅ NAMS: `CrossAgentProtocol:v1` + 5 Agent entities stored
+
+### Cross-Agent Protocol Directives
+- ✅ OpenClaw: `~/.agents/skills/cross-agent-communication/SKILL.md`
+- ✅ OpenCode: `~/.config/opencode/skills/cross-agent-communication/SKILL.md`
+- ✅ Hermes: `~/.hermes/skills/cross-agent-communication/SKILL.md`
+- ✅ Cline: `~/.clinerules/agents/cross-agent-communication.md`
+- ✅ Kiro: `~/.kiro/steering/cross-agent-communication.md`
+
+### Phase Status
+- **Phase 1** (Document-based comms): ✅ COMPLETE
+- **Phase 2** (Cross-agent skills): ✅ COMPLETE
+- **Phase 3** (Agent-specific integration): ⏳ Pending
+- **Phase 4** (Transport layer): 🔮 Future
