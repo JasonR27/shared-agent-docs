@@ -69,19 +69,24 @@
 - **18 MCP servers** matching OpenCode's set
 - **33 agent definitions** synced
 - Default model: `tencent/hy3:free` via nous provider
-- NAMS integration via hooks (planned — Python MemoryProvider plugin)
-- Cortex-CS plugin port (planned — Plan C in hermes subplan)
+- **NAMS integration: ✅ DONE** — `nams` MemoryProvider plugin built, verified, published
+- Cortex-CS plugin port: pending (Plan C)
 
 ### Current Work
-- Phase 0 + Plan A complete (import + full capabilities)
-- Plan C (NAMS + Cortex-CS Python plugin ports) NOT STARTED
-- Needs `pip install agent-memory` for NAMS provider
+- **NAMS MemoryProvider plugin — COMPLETE** (2026-08-04): built on hosted NAMS REST
+  backend (`neo4j-agent-memory==0.5.0`), verified via real Hermes loader + live
+  write/recall, published at https://github.com/JasonR27/hermes-nams-memory-plugin
+  (no secrets). Plan + rationale: `~/Documents/Github/JasonR27/plans/NAMS-Hermes-plugin-2026-08-04.md`.
+- **CORTEX GDS paper indexes — finalized** (2026-08-04): all 5 PixelRAG FAISS indexes
+  complete (pixelrag, omniflow, omniflow-chunked, hyperagents-chunked, hyce-rag-chunked).
+  Handoff doc: `shared-agent-docs/sessions/2026-08-04-corteg-gds-index-handoff.md`.
 
 ### References
 - Config: `~/.hermes/config.yaml`
 - Skills: `~/.hermes/skills/`
 - Agents: `~/.hermes/workspace/agents/`
-- Subplan: `~/Documents/Github/JasonR27/docs/plans/2026-07-31-subplan-hermes.md`
+- NAMS plugin repo: `~/Documents/Github/JasonR27/hermes-nams-memory-plugin/`
+- CORTEX GDS plan: `GraphAnalytics-AI/HyCE-RAG/PLAN_THREE_PAPER_CORTEX_GDS.md`
 
 ---
 
@@ -219,3 +224,42 @@ All 5 agents have access to the same 18 MCP servers. ✅ COMPLETE
 - **Phase 2** (Cross-agent skills): ✅ COMPLETE
 - **Phase 3** (Agent-specific integration): ⏳ Pending
 - **Phase 4** (Transport layer): 🔮 Future
+
+---
+
+## Cross-Agent Messages
+
+### Message: Hermes → ALL
+**Date**: 2026-08-04 20:30 CST
+**Subject**: CORTEX GDS — paper indexes complete, ready for GDS synthesis
+**Priority**: normal
+**Status**: pending
+
+The 5 PixelRAG FAISS indexes for the CORTEX GDS experiment are finalized and verified.
+Any agent can now continue the GDS pipeline + CORTEX applicability synthesis. Summary:
+
+| Index | Vectors | Dim | Represents |
+|-------|--------|-----|------------|
+| `pixelrag-index/` | 76 | 2048 | PixelRAG baseline |
+| `omniflow-index/` | 15 | 2048 | OmniFlow (legacy 1-tile/page) |
+| `omniflow-index-chunked/` | 180 | 2048 | OmniFlow (genuine chunking) |
+| `hyperagents-index-chunked/` | 720 | 2048 | HyperAgents |
+| `hyce-rag-index-chunked/` | 192 | 2048 | HyCE-RAG |
+
+All under `/home/jasonr27/Documents/Github/JasonR27/GraphAnalytics-AI/HyCE-RAG/`.
+Each has `index.faiss`, `metadata.npz`, `summary.json`, `embeddings/`, `tiles/`.
+
+**How to continue**: see `shared-agent-docs/sessions/2026-08-04-corteg-gds-index-handoff.md`
+(exact paths, load instructions, per-paper Neo4j namespacing plan) and the source plan
+`GraphAnalytics-AI/HyCE-RAG/PLAN_THREE_PAPER_CORTEX_GDS.md`. The embedding phase is
+CLOSED — do not re-run embedding unless the indexes are corrupted.
+
+### Action Items
+- [ ] Pick up PLAN_THREE_PAPER_CORTEX_GDS.md phase 3 (per-paper GDS: Louvain + PageRank + betweenness under distinct namespaces `PRPage_Omni`/`PRPage_HyCE`/`PRPage_Hyper`)
+- [ ] Produce CORTEX applicability synthesis (per-paper + cross-paper matrix)
+- [ ] Gate "verified" claims on Jason's manual OCR/markdown confirmation (AGENTS.md §1.5)
+
+### References
+- Session: `shared-agent-docs/sessions/2026-08-04-corteg-gds-index-handoff.md`
+- Plan: `GraphAnalytics-AI/HyCE-RAG/PLAN_THREE_PAPER_CORTEX_GDS.md`
+- NAMS entity: `AgentWork` "CORTEX GDS paper indexes — finalize + handoff" (agent: Hermes)
