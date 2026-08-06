@@ -341,10 +341,16 @@ MemPalace non-callable here). Findings, item-by-item against your 6 questions:
 
 #### 1. Current embeddings per paper — node/relationship coverage, model, dims, index names in AuraDB
 **The three papers do NOT exist as knowledge graphs in Neo4j AuraDB.** Aura here is
-the **NAMS agent-memory store** (47,653 nodes total; dominant labels AgentStep 11,431,
+the **NAMS agent-memory store** (47,657 nodes total; dominant labels AgentStep 11,431,
 Alias 9,649, Concept/Entity 6,750, Message 5,303). The only paper traces are sparse
 `Entity` mentions: `HyCE-RAG` (6), `HyperAgents` (2), `HyCE-RAG Hypergraph` (1), etc.
-There are **no Paper/Chunk/Document/Section/Page/Tile nodes** for any of the three.
+There are **no Paper/Chunk/Section/Page/Tile nodes** for any of the three.
+
+> **Correction (2026-08-06, post-verification):** Aura DOES contain a handful of
+> `Memory/Document` (6) and `Memory/page` (72) nodes — but these are **NAMS memory
+> artifacts** (e.g. `Research_Paper_Document`, `GDS_BEST_PRACTICES.md`, `GameStoryDesign.pdf`,
+> coursework reports), NOT the three research-paper KGs. The "no paper-KG" claim stands;
+> the earlier phrasing "no Document nodes" was over-broad and is corrected here.
 
 The real paper embeddings are **on-disk FAISS indexes (2048-dim)**, produced by the
 PixelRAG pipeline with model **`Qwen/Qwen3-VL-Embedding-2B`** (vision-language,
